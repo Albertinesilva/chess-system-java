@@ -76,7 +76,7 @@ Chess-System-Java/
    ```
 3. Compile e execute o projeto:
    ```sh
-   javac application/Program.java
+   javac application/Program ou
    java application.Program
    ```
 
