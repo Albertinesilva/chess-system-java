@@ -76,7 +76,7 @@ Chess-System-Java/
    ```
 3. Compile e execute o projeto:
    ```sh
-   javac application/Program ou
+   java application/Program ou
    java application.Program
    ```
 
@@ -102,10 +102,12 @@ Escolha uma peça para mover:
 🔹 Implementar uma versão gráfica (GUI) usando JavaFX <br>
 🔹 Suporte a multiplayer online <br>
 
-## Sobre o projeto
+## Detalhes Adicionais
 
-Este projeto de xadrez foi desenvolvido em Java como parte do curso ministrado pelo professor [Nélio Alves](https://github.com/acenelio). O código segue a implementação feita pelo professor, com o objetivo de praticar conceitos de Programação Orientada a Objetos (POO) e estrutura de dados.
+Este projeto de xadrez foi desenvolvido em Java como parte do curso ministrado pelo professor [Nélio Alves](https://github.com/acenelio). O código segue a implementação ensinada pelo professor, com o objetivo de praticar conceitos de Programação Orientada a Objetos (POO) e estrutura de dados.
 
-## Aluno
+Além da implementação original, foram realizadas modificações na organização dos packages para melhorar a estrutura e legibilidade do código.
+
+## Autor
 
 👤 **Albert Silva**
