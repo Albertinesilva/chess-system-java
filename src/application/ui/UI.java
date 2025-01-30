@@ -1,4 +1,4 @@
-package application;
+package application.ui;
 
 import chess.ChessPiece;
 

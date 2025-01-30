@@ -1,5 +1,6 @@
 package application;
 
+import application.ui.UI;
 import chess.ChessMatch;
 
 public class Program {
