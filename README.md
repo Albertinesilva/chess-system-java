@@ -48,13 +48,28 @@ Este projeto é uma implementação de um sistema de xadrez em Java, desenvolvid
 
 ```
 Chess-System-Java/
-│── src/
-│   ├── boardgame/         # Lógica do tabuleiro e peças
-│   ├── chess/             # Lógica do jogo de xadrez
+│── bin/                   # Arquivos compilados
+│── lib/                   # Dependências do projeto (se houver)
+│── src/                   # Código-fonte do projeto
 │   ├── application/       # Ponto de entrada do jogo
-│   ├── ui/                # Interface de exibição no console
+│   │   ├── ui/            # Interface de exibição no console
+│   │   ├── Program.java   # Classe principal do projeto
+│   ├── boardgame/         # Lógica do tabuleiro e peças
+│   │   ├── exceptions/    # Exceções relacionadas ao tabuleiro
+│   │   ├── Board.java     
+│   │   ├── Piece.java     
+│   │   ├── Position.java  
+│   ├── chess/             # Lógica do jogo de xadrez
+│   │   ├── enums/         # Enumerações do jogo
+│   │   ├── exceptions/    # Exceções do jogo de xadrez
+│   │   ├── pieces/        # Peças do jogo
+│   │   ├── ChessMatch.java
+│   │   ├── ChessPiece.java
+│   │   ├── ChessPosition.java
 │── README.md              # Documentação do projeto
 │── .gitignore             # Arquivos ignorados pelo Git
+│── chess-system-design.png # Diagrama do sistema
+
 ```
 
 ## Como Executar o Projeto
@@ -62,7 +77,7 @@ Chess-System-Java/
 ### 🔹 Pré-requisitos
 
 - Java JDK 8 ou superior
-- Git Bash (para melhor exibição de cores no terminal)
+- Para melhor exibição de cores no terminal, recomenda-se o uso do Git Bash. No entanto, em alguns ambientes, como o PowerShell, as cores também podem funcionar corretamente.
 
 ### 🔹 Passos para execução
 
@@ -74,12 +89,11 @@ Chess-System-Java/
    ```sh
    cd Chess-System-Java
    ```
-3. Compile e execute o projeto:
+3. Compile e execute o projeto dentro da pasta `bin`:
    ```sh
-   java application/Program ou
-   java application.Program
+   java application.Program ou, dependendo do ambiente, java application/Program
    ```
-
+   
 ## Exemplo de Saída no Terminal
 
 ```
