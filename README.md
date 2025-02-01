@@ -1,6 +1,6 @@
-<h1 align="center">Curso Udemy - Java e POO</h1>
+<h1 align="center">Chess System - Java</h1>
 
-# Chess System - Java
+<h2 align="center">Curso: Programação Orientada a Objetos com Java - Udemy</h2>
 
 # Modelo de domínio Chess System
 
@@ -120,7 +120,7 @@ Escolha uma peça para mover:
 
 Este projeto de xadrez foi desenvolvido em Java como parte do curso ministrado pelo professor [Nélio Alves](https://github.com/acenelio). O código segue a implementação ensinada pelo professor, com o objetivo de praticar conceitos de Programação Orientada a Objetos (POO) e estrutura de dados.
 
-Além da implementação original, foram realizadas modificações na organização dos packages para melhorar a estrutura e legibilidade do código.
+Além da implementação original, foram realizadas modificações na organização dos packages para aprimorar a estrutura e a legibilidade do código. Além disso, a interface de exibição no console foi ajustada para proporcionar uma melhor experiência visual e usabilidade.
 
 ## Autor
 
