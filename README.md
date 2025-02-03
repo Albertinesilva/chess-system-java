@@ -1,6 +1,6 @@
 <h1 align="center">Chess System - Java</h1>
 
-<h2 align="center">Curso: Programação Orientada a Objetos com Java - Udemy</h2>
+<h2 align="center">Curso Udemy: Programação Orientada a Objetos com Java </h2>
 
 # Modelo de domínio Chess System
 
