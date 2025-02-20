@@ -1,16 +1,20 @@
-<h1 align="center">Chess System - Java</h1>
+<h1 align="center"> 🏁Chess System - Java</h1>
 
 <h2 align="center">Curso Udemy: Programação Orientada a Objetos com Java </h2>
 
-# Modelo de domínio Chess System
-
-![Modelo de domínio Chess System](chess-system-design.png)
-
-## Sobre o Projeto
+### 📌 Sobre o Projeto
 
 Este projeto é uma implementação de um sistema de xadrez em Java, desenvolvido com princípios de Programação Orientada a Objetos (POO). Ele permite jogar uma partida de xadrez diretamente pelo terminal, com regras implementadas e movimentação das peças seguindo as normas oficiais do jogo.
 
-## Funcionalidades
+---
+
+### Modelo de domínio Chess System
+
+![Modelo de domínio Chess System](chess-system-design.png)
+
+---
+
+### Funcionalidades
 
 ✅ Representação do tabuleiro e peças usando matriz <br>
 ✅ Movimentação das peças com validação de jogadas <br>
@@ -19,6 +23,8 @@ Este projeto é uma implementação de um sistema de xadrez em Java, desenvolvid
 ✅ Verificação de xeque e xeque-mate <br>
 ✅ Implementação de regras especiais: Roque, En Passant e Promoção <br>
 ✅ Tratamento de exceções e validação de entrada do usuário <br>
+
+---
 
 ## Conceitos Utilizados
 
@@ -33,18 +39,24 @@ Este projeto é uma implementação de um sistema de xadrez em Java, desenvolvid
 - Sobrescrita de Métodos (Overriding)
 - Sobrecarga de Métodos (Overloading)
 
+---
+
 ### 🔹 Estruturas de Dados
 
 - Matriz (para representar o tabuleiro)
 - Listas (para controle de peças capturadas e em jogo)
 
+---
+
 ### 🔹 Padrões e Boas Práticas
 
-- Camadas organizadas: UI, lógica do jogo, e modelo de dados
-- Tratamento de exceções personalizado (`BoardException`, `ChessException`)
-- Métodos auxiliares para facilitar a leitura e manutenção do código
+- Camadas organizadas → UI, lógica do jogo, e modelo de dados
+- Tratamento de exceções → personalizado (`BoardException`, `ChessException`)
+- Métodos auxiliares → para facilitar a leitura e manutenção do código
 
-## Estrutura do Projeto
+---
+
+### Estrutura do Projeto
 
 ```
 Chess-System-Java/
@@ -69,15 +81,18 @@ Chess-System-Java/
 │── README.md              # Documentação do projeto
 │── .gitignore             # Arquivos ignorados pelo Git
 │── chess-system-design.png # Diagrama do sistema
-
 ```
 
-## Como Executar o Projeto
+---
+
+## 🏁  Como Executar o Projeto
 
 ### 🔹 Pré-requisitos
 
 - Java JDK 8 ou superior
 - Para melhor exibição de cores no terminal, recomenda-se o uso do Git Bash. No entanto, em alguns ambientes, como o PowerShell, as cores também podem funcionar corretamente.
+
+---
 
 ### 🔹 Passos para execução
 
@@ -93,8 +108,9 @@ Chess-System-Java/
    ```sh
    java application.Program ou, dependendo do ambiente, java application/Program
    ```
+---
    
-## Exemplo de Saída no Terminal
+### Exemplo de Saída no Terminal
 
 ```
 8  -  -  -  -  -  -  -  -
@@ -110,18 +126,27 @@ Turno: 1 | Jogador atual: Brancas
 Escolha uma peça para mover:
 ```
 
-## Próximos Passos
+---
+
+### 🔜 Próximos Passos
 
 🔹 Melhorar a interface no console <br>
 🔹 Implementar uma versão gráfica (GUI) usando JavaFX <br>
 🔹 Suporte a multiplayer online <br>
 
-## Detalhes Adicionais
+---
 
-Este projeto de xadrez foi desenvolvido em Java como parte do curso ministrado pelo professor [Nélio Alves](https://github.com/acenelio). O código segue a implementação ensinada pelo professor, com o objetivo de praticar conceitos de Programação Orientada a Objetos (POO) e estrutura de dados.
+### 🎯 Conclusão e Aprendizado
+O desenvolvimento deste projeto foi uma excelente experiência para consolidar conhecimentos em Programação Orientada a Objetos (POO) e estrutura de dados. Trabalhar com matrizes para representar o tabuleiro foi um desafio interessante, permitindo explorar manipulação de índices e lógica de movimentação das peças. Além disso, a utilização de listas dinâmicas facilitou o gerenciamento das peças capturadas e disponíveis, tornando o código mais eficiente e organizado.
 
-Além da implementação original, foram realizadas modificações na organização dos packages para aprimorar a estrutura e a legibilidade do código. Além disso, a interface de exibição no console foi ajustada para proporcionar uma melhor experiência visual e usabilidade.
+Este projeto de xadrez foi desenvolvido em Java como parte do curso ministrado pelo professor [Nélio Alves](https://github.com/acenelio).. O código segue a implementação ensinada no curso, com o objetivo de praticar conceitos fundamentais de POO e estrutura de dados.
 
-## Autor
+Além da implementação original, realizei modificações para aprimorar a organização do código e a experiência do usuário. A estrutura dos pacotes foi reorganizada para melhorar a legibilidade e manutenção do projeto. Também fiz ajustes na interface de exibição no console, proporcionando uma melhor experiência visual e usabilidade.
+
+Além de consolidar conceitos de POO e estrutura de dados, este projeto reforçou a importância de boas práticas, como organização modular e tratamento de exceções, preparando-me para desafios mais avançados no desenvolvimento com Java.
+
+---
+
+### Autor
 
 👤 **Albert Silva**
