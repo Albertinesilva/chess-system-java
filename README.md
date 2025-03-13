@@ -146,7 +146,6 @@ Além da implementação original, realizei modificações para aprimorar a orga
 Além de consolidar conceitos de POO e estrutura de dados, este projeto reforçou a importância de boas práticas, como organização modular e tratamento de exceções, preparando-me para desafios mais avançados no desenvolvimento com Java.
 
 ---
-
-### Autor
-
-👤 **Albert Silva**
+| 🌎 LinkedIn | 👤 **Autor** |
+|------------|---------------|
+| [LinkedIn](https://www.linkedin.com/in/albert-backend-java-spring-boot/) | [Albert Silva](https://www.linkedin.com/in/albert-backend-java-spring-boot/) |
